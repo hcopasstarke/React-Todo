@@ -81,23 +81,20 @@ class App extends React.Component {
         });
     };
 
-    render() {
-        return ( <
-            div >
-            <
-            h1 > Todo App! < /h1> <
-            List todoData = { this.state.todoList }
-            toggleTodo = { this.toggleTodo }
-            /> <
-            Form addNewTodo = { this.addNewTodo }
-            changeHandler = { this.changeHandler }
-            newTodo = { this.state.newTodo }
-            toggleTodo = { this.toggleTodo }
-            clearCompleted = { this.clearCompleted }
-            /> <
-            /div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <h1>Todo App!</h1>
+        <List todoData={this.state.todoList} toggleTodo={this.toggleTodo} />
+        <Form
+          addNewTodo={this.addNewTodo}
+          changeHandler={this.changeHandler}
+          newTodo={this.state.newTodo}
+          toggleTodo={this.toggleTodo}
+          clearCompleted={this.clearCompleted} />
+      </div>
+    );
+  }
 }
 
 export default App;
