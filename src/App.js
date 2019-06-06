@@ -1,7 +1,7 @@
 import React from 'react';
 import Form from './components/TodoComponents/TodoForm';
 import List from './components/TodoComponents/TodoList';
-import './components/TodoComponents/Todo.css';
+import './components/TodoComponents/Todo.scss';
 
 class App extends React.Component {
     constructor(props) {
@@ -84,7 +84,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Todo App!</h1>
+        <h1>Todo List: MVP</h1>
         <List todoData={this.state.todoList} toggleTodo={this.toggleTodo} />
         <Form
           addNewTodo={this.addNewTodo}
