@@ -1,0 +1,30 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: hotpink;
+}
+
+button {
+    margin: 2em;
+    padding: .5em;
+    border-radius: .5em;
+    background: lightseagreen;
+}
+
+input {
+    margin-right: 2em;
+    padding: .5em;
+    border-radius: .5em;
+    background: lightcyan;
+    color: black;
+}
