@@ -1,0 +1,37 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    background: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 5px 5px 2px rgba(255,25,255,0.7);
+    font-size: 2.5em;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: hotpink;
+}
+
+button {
+    margin: 2em;
+    padding: .5em;
+    border-radius: .5em;
+    background: lightseagreen;
+    &:hover {
+        background: rgb(236, 233, 36);
+    }
+}
+
+input {
+    margin-right: 2em;
+    padding: .5em;
+    border-radius: .5em;
+    background: lightcyan;
+    color: black;
+}
